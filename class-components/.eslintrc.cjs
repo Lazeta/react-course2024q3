@@ -18,11 +18,12 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
   ],
-  plugins: ['react', '@typescript-eslint', 'no-any'],
+  plugins: ['react', '@typescript-eslint', "react-compiler"],
   rules: {
-    'no-any/no-any': 'error',
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
     'prettier/prettier': 'error',
+    "react-compiler/react-compiler": "error",
+    "@typescript-eslint/no-explicit-any": "error"
   },
 };

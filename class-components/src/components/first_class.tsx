@@ -1,8 +1,7 @@
-import React from "react";
-
+import React from 'react';
 
 interface GreetingProps {
-    name: string;
+  name: string;
 }
 
 export class Greeting extends React.Component<GreetingProps> {
@@ -11,4 +10,4 @@ export class Greeting extends React.Component<GreetingProps> {
   }
 }
 
-<Greeting name="Taylor" />
+<Greeting name="Taylor" />;
