@@ -9,5 +9,3 @@ export class Greeting extends React.Component<GreetingProps> {
     return <h1>Hello, {this.props.name}!</h1>;
   }
 }
-
-<Greeting name="Taylor" />;
